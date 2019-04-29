@@ -6,9 +6,9 @@ Different data samples are added on js file to test for possible senarios for te
 
 Test Senarios catered:
 
-limit not defined
-limit provided is negative
-limit is 0
-bars value(s) is/are negative
-bars are not provided in api
-buttons are not provided is api
+1. limit not defined, 
+2. limit provided is negative, 
+3. limit is 0, 
+4. bars value(s) is/are negative, 
+5. bars are not provided in api, 
+6. buttons are not provided is api.
