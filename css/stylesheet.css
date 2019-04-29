@@ -41,7 +41,10 @@ margin: 6px 4px;
     font-size: 14px;
     border-radius: .25rem;
 }
-
+.custome:hover{
+	background-color:#064327bf;
+}
+	
 #barContainer{
 	text-align: center;
     /*margin: 2% 25%;
