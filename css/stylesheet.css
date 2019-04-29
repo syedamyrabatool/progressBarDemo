@@ -1,0 +1,58 @@
+.myProgress {
+	width: 50%;
+    overflow: hidden;
+    background-color: #ddd;
+    display: flex;
+    height: 2rem;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin: 2.5% 25%;
+}
+
+.myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #56aab8;
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+}
+
+.custome{
+margin: 6px 4px;
+    /* padding: 5px; */
+    background-color: #0643279e;
+    border: 1px solid slategrey;
+    color: whitesmoke;
+    padding: 3.5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: .25rem;
+}
+
+#barContainer{
+	text-align: center;
+    /*margin: 2% 25%;
+    width: 50%;*/
+}
+#barController{
+	margin:5px;
+}
+
+.error{
+    width: 50%;
+    background-color: #db5858;
+    border-radius: 5px;
+    margin: 5% 25%;
+    color: white;
+}
