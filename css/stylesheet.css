@@ -1,29 +1,31 @@
 .myProgress {
 	width: 50%;
     overflow: hidden;
-    background-color: #ddd;
     display: flex;
     height: 2rem;
     font-size: .75rem;
-    background-color: #e9ecef;
+    background-color: #d1d3cf;
     border-radius: .25rem;
     margin: 2.5% 25%;
 }
 
 .myBar {
-  width: 1%;
-  height: 30px;
-  background-color: #56aab8;
-	display: -ms-flexbox;
+     width: 1%;
+    height: 2rem;
+    background-color: #56aab8;
+    display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
+    color: aliceblue;
     text-align: center;
     white-space: nowrap;
+    border-radius: 0.25rem;
     transition: width .6s ease;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 .custome{

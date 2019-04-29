@@ -99,7 +99,7 @@ var getSign = Math.sign(btnNumber);
 console.log(getSign+" "+width+" "+btnNumber+" "+(width+parseInt(btnNumber)));
 var checkforZero=false;
 if(getSign.toString()=="-1"){ // check if button clicked was a negative number
-	if(width+parseInt(btnNumber)<=0){ //btnNumber is already negative (postivieNum + (-negativeNum))
+	if(width+parseInt(btnNumber)<0){ //btnNumber is already negative (postivieNum + (-negativeNum))
 	checkforZero=true;
 
 	}
@@ -107,7 +107,7 @@ if(getSign.toString()=="-1"){ // check if button clicked was a negative number
 		checkforZero=false;
 	}
 }
-console.log(checkforZero);
+//console.log(checkforZero);
 if(!checkforZero){
 elem.style.width = (((width+ parseInt(btnNumber))*100)/data.limit) + '%';
 var newFiller= parseInt(width)+parseInt(btnNumber);
