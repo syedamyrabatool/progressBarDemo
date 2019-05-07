@@ -12,3 +12,6 @@ Test Senarios catered:
 4. bars value(s) is/are negative, 
 5. bars are not provided in api, 
 6. buttons are not provided is api.
+
+
+<img src="./progressbar.jpg?raw=true" alt="Appearence">
