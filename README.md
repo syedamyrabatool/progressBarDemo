@@ -14,4 +14,4 @@ Test Senarios catered:
 6. buttons are not provided is api.
 
 
-<img src="../../progressbar.JPG" alt="Appearence">
+<img src="./progressbar.JPG?raw=true" alt="Appearence">
