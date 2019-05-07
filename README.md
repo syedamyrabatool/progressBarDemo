@@ -13,5 +13,5 @@ Test Senarios catered:
 5. bars are not provided in api, 
 6. buttons are not provided is api.
 
-
+### Appearence ###
 <img src="./progressbar.JPG?raw=true" alt="Appearence">
